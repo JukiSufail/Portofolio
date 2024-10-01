@@ -16,7 +16,7 @@ export const About = (props) => {
   }}>
       <div className='flex justify-center items-center content-center pb-4 h-full'>
         <div className='xl:w-3/5 xl:h-6/5 z-30 shadow-xl rounded-xl h-36 lg:h-4/5 h-600 bg-no-repeat bg-center bg-cover w-auto'
-          style={{ backgroundImage: `url(${require('../assets/mitsuki1.jpg')})` }}>
+          style={{ backgroundImage: "url('https://raw.githubusercontent.com/JukiSufail/images/5eff374808dd81e21fc25bddc95291ce8fa6ee29/mitsuki1.jpg') "}}>
         </div>
       </div>
       <div className='h-fit lg:h-full grid'>

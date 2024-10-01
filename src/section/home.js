@@ -56,12 +56,12 @@ export const Home = (props) => {
         </div>
       </div>
       <div className="grid content-center">
-        <div className="self-start justify-self-center">
+        <div className="self-start justify-self-center xl:w-3/5">
           <motion.img
             initial={{opacity:0, x:100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1}}
-            src={Mitsuki}
+            src="https://raw.githubusercontent.com/JukiSufail/images/5eff374808dd81e21fc25bddc95291ce8fa6ee29/mitsuki.jpg"
             style={{ scale: "0.7" }}
           />
         </div>

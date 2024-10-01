@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom'; // Tambahkan impor ini
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename="/Portofolio"> {/* Gunakan BrowserRouter dan tambahkan basename di sini */}
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
