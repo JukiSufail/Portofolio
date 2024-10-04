@@ -61,7 +61,7 @@ export const Home = (props) => {
             initial={{opacity:0, x:100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1}}
-            src="https://raw.githubusercontent.com/JukiSufail/images/5eff374808dd81e21fc25bddc95291ce8fa6ee29/mitsuki.jpg"
+            src="https://raw.githubusercontent.com/JukiSufail/images/main/mitsukii.png"
             style={{ scale: "0.7" }}
           />
         </div>
